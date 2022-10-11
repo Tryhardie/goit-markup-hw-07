@@ -1,0 +1,25 @@
+$primary-bg-color: #ffffff;
+$secondary-bg-color: #f5f4fa;
+$footer-bg-color: #2f303a;
+$primary-text-color: #212121;
+$secondary-text-color: #757575;
+$accent-color: #2196f3;
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    background-color: $primary-bg-color;
+    color: $primary-text-color;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section {
+    padding: 94px 0px;
+}
