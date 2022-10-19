@@ -94,7 +94,7 @@ body {
   border-radius: 2px;
 }
 
-/* Transitions add to the end */
+/* Transitions and misc add to the end */
 .link,
 .social-link,
 .costumer-link,
@@ -115,6 +115,14 @@ body {
   transition-property: background-color, border, box-shadow, color, transform;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
 }
 
 .link:hover,
@@ -237,14 +245,6 @@ body {
   font-size: 14px;
   line-height: 1.7;
   color: var(--secondary-text-color);
-}
-
-.visually-hidden {
-  position: absolute;
-  clip: rect(0 0 0 0);
-  width: 1px;
-  height: 1px;
-  margin: -1px;
 }
 
 /* About & Team Section */
