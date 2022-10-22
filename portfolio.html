@@ -253,12 +253,14 @@
     <footer class="page-footer">
       <div class="container footer">
         <div class="address-items">
-          <a href="./index.html" class="logo"><span class="logo__accent">Web</span>Studio</a>
+          <a href="./index.html" class="logo page-footer__logo"
+            ><span class="logo__accent">Web</span>Studio</a
+          >
           <address>
             <ul class="address">
               <li>
                 <a
-                  class="address-link"
+                  class="address__link"
                   href="https://goo.gl/maps/VLPrRpzanvmtSd6Z9"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -266,54 +268,54 @@
                 >
               </li>
               <li>
-                <a href="mailto:info@devstudio.com" class="address-mail">info@devstudio.com</a>
+                <a href="mailto:info@devstudio.com" class="address__mail">info@devstudio.com</a>
               </li>
-              <li><a href="tel:+380961111111" class="address-tel">+38 096 111 11 11</a></li>
+              <li><a href="tel:+380961111111" class="address__tel">+38 096 111 11 11</a></li>
             </ul>
           </address>
         </div>
-        <div class="footer-social">
-          <p class="footer-text"><strong>приєднуйтесь</strong></p>
-          <ul class="social-list">
-            <li class="social-item">
-              <a href="" class="social-link footer">
-                <svg class="icon footer" width="20" height="20">
+        <div>
+          <p class="footer-cta"><strong>приєднуйтесь</strong></p>
+          <ul class="social__list footer-social__list">
+            <li class="social__item">
+              <a href="" class="social__link footer-social__link">
+                <svg class="social__icon footer" width="20" height="20">
                   <use href="./images/icons.svg#icon-instagram"></use></svg
               ></a>
             </li>
-            <li class="social-item">
-              <a href="" class="social-link footer">
-                <svg class="icon footer" width="20" height="20">
+            <li class="social__item">
+              <a href="" class="social__link footer-social__link">
+                <svg class="social__icon footer" width="20" height="20">
                   <use href="./images/icons.svg#icon-twitter"></use></svg
               ></a>
             </li>
-            <li class="social-item">
-              <a href="" class="social-link footer">
-                <svg class="icon footer" width="20" height="20">
+            <li class="social__item">
+              <a href="" class="social__link footer-social__link">
+                <svg class="social__icon footer" width="20" height="20">
                   <use href="./images/icons.svg#icon-facebook"></use></svg
               ></a>
             </li>
-            <li class="social-item">
-              <a href="" class="social-link footer">
-                <svg class="icon footer" width="20" height="20">
+            <li class="social__item">
+              <a href="" class="social__link footer-social__link">
+                <svg class="social__icon footer" width="20" height="20">
                   <use href="./images/icons.svg#icon-linkedin"></use></svg
               ></a>
             </li>
           </ul>
         </div>
         <form name="subscription" class="subscription">
-          <label for="user_email" class="footer-text">Підпишіться на розсилку</label>
-          <div class="sub-items">
+          <label for="user_email" class="footer-cta">Підпишіться на розсилку</label>
+          <div class="sub__items">
             <input
               type="email"
               name="email"
               id="user_email"
               placeholder="E-mail"
-              class="sub-input"
+              class="sub__input"
             />
-            <button type="submit" class="sub-btn">
+            <button type="submit" class="sub__btn">
               Підписатися
-              <svg class="sub icon" width="24" height="24">
+              <svg class="sub__icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>

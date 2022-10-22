@@ -26,6 +26,7 @@
   &:hover {
     color: #ffffff;
     background-color: $accent-color;
+    @extend .transition;
   }
 }
 

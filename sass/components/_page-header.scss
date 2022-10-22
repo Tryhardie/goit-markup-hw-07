@@ -29,6 +29,7 @@
   &:hover,
   &:focus {
     color: $accent-color;
+    @extend .transition;
   }
 }
 
@@ -56,6 +57,7 @@
   &:hover,
   &:focus {
     color: $accent-color;
+    @extend .transition;
   }
 }
 
